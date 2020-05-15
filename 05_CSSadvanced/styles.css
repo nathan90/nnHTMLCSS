@@ -1,0 +1,62 @@
+/* p.error {
+    color: red;
+} */
+
+/* p.success {
+    color: rgb(0, 223, 0);
+    font-weight:bold;
+}
+
+p.success.feedback {
+    color: rgb(1, 238, 255);
+    font-weight:bold;
+    border: 1px dashed;
+} */
+/* css can be also used by calling id but it is rarely used. id are mainly used for javascript */
+/* div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+div .error {
+    color:blue
+} */
+
+/* attribute selectors */
+
+/* a[href= "https://www.google.com"] {
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+a[href*= "youtube"] {
+    background-color: #3dd13d;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+div {
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 10px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p {
+    color: blue;
+}
+/* precedence is from top to bottom so what ever is declared last will be used;
+otherwise if the p tag is inside a specific selector like div p {} then it will be more specific
+and will be used */
