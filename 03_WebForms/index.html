@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <!--<form action=""></form> action attribute is to connect to server -->
+
+    <form>
+        <label for="username">Enter username:</label>
+        <input type="text" name="username" id="username" placeholder="username" required> <!--The name field came used for server side processing-->
+        <br> <br>
+        <label for="email">Enter email:</label>
+        <input type="email" name="email" id="email" placeholder="your email" required>
+        <br><br>
+        <label for="password">Enter password:</label>
+        <input type="password" name="password" id="password" placeholder="choose a password" required> <!--usually name and id can be similar-->
+        <!-- Name can be used to group different fields together
+        example is when we use radio buttons
+        value field also helps in sending the selected button field to server-->
+        <p>Select your age:</p>
+        <input type="radio" name="age" id="option-1" value="0-25">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" id="option-2" value="26-50">
+        <label for="option-1">26-50</label>
+        <input type="radio" name="age" id="option-3" value="51-100">
+        <label for="option-3">51-100</label>
+
+        <br><br>
+
+        <label for="">Security Question</label>
+        <select name="Question" id="Question">
+            <option value="q1">What color your favorite colour of socks?</option>
+            <option value="q2">What is your favorite food?</option>
+            <option value="q3">What is your first pets name?</option>
+        </select>
+        <br><br>
+
+        <label for="answer">Security Question Answer</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+        <label for="bio">Your bio</label> <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About You"></textarea>
+
+        <br><br> 
+
+        <input type="submit" value = "submit the form">
+        <!-- Normally when you submit the browser value inside the action attribute inside the form 
+        that will be a reference to some kind of script and it will send all the data that user types in
+        to that script-->
+
+    </form>
+</body> 
+</html>
