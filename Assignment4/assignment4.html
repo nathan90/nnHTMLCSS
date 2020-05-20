@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Registration Form</h1>
+    </div>
+    <br><br>
+    <div class="details">
+        <form class="studentForm">
+            <label class="label" for="name">Name</label>
+            <input class="response" type="text" name="name" id="name" placeholder="name" required>
+            <br><br>
+            <label class="label" for="sex">Sex</label>
+            <div class="radioButtons">
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="male">male</label>
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="female">female</label>
+            </div>
+            <br><br>
+            <label class="label" for="age">Age</label>
+            <input class="response" type="text" name="age" id="age" placeholder="age" required>
+            <br><br>
+            <label class="label" for="website">Website</label>
+            <a class= "website" href="">www.samplewebsite.com</a>
+            <br><br>
+            <label class="label" for="qualification">Qualification</label>
+            <select class="response" name="Qualification" id="Qualification">
+                <option value="SSLC">SSLC</option>
+                <option value="Plus Two">Plus Two</option>
+                <option value="Degree">Degree</option>
+            </select>
+            <br><br>
+            <label class="label" for="email">Enter email:</label>
+            <input class="response" type="email" name="email" id="email" placeholder="your email" required>
+            <br><br>
+            <label class="label address" for="address">Address</label> 
+            <textarea class="response" name="address" id="address" cols="20" rows="7" placeholder="Address"></textarea>
+        </form>
+        <br>
+        <div class="button">
+            <button>Submit</button>
+        </div>
+
+        <br><br>
+
+        <div class="footerBox">
+            <div class="box1">
+                <p>
+                   <strong>Cascading style sheets</strong> is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web alongside HTML and Javascript
+                </p>
+            </div>
+            <div class="box2">
+                <p>
+                   <strong>Javascript</strong> often abbreviated as JS is a programming language that confirms to the ECMAScript specification, Javascript is high level, often just in time compiled, and multi paradigm
+                </p>
+            </div>
+            <div class="box3">
+                <div class="para">
+                    <p><b>Primary Colors List</b></p>
+                </div>
+                <div>
+                    <input  type="radio" name="color" value="red" id="color1" >
+                    <label class="color1" for="color1" class="red">&nbsp; Red &nbsp;</label>
+                </div>
+                <div>
+                    <input  type="radio" name="color" value="green" id="color2" >
+                    <label class="color2" for="color2" class="green">&nbsp;Green</label>
+                </div>
+                <div>
+                    <input type="radio" name="color" value="blue" id="color3" >
+                    <label  class="color3" for="color3" class="blue">&nbsp; Blue &nbsp;</label>
+                </div>
+            </div>
+        </div>
+           
+    </div>
+</body>
+</html>
