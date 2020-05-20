@@ -1,3 +1,42 @@
+# HTML and CSS
+## 1. Introduction
+
+- HTML is a Hypertext Markup Language used to structure content on a web page.
+- We structure content using HTML tags.
+```html
+          <html>
+            <body>
+              <p> Content </P>
+              <a> link </a>
+            </body>
+          </html>
+ ```
+
+ ## 2.  HTML Basics
+ 
+ ### HTML Tags
+
+  - `<!DOCTYPE>`  	Defines the document type.
+  - `<html>` 	Defines an HTML document.
+  - `<head>` 	Contains metadata/information for the document.
+  - `<body>` 	Defines the document's body.
+  - `<h1> to <h6>` 	Defines HTML headings. `h1` the largest to `h6` the smallest
+  - `<p>` 	Defines a paragraph tag.
+  - `<br>` 	Inserts a line break.
+  - `<blockquote>` 	Defines a section that is quoted from another source.
+  - `<a>`	Defines a hyperlink. Used for inserting urls to other sites or same site
+  - `<em>` 	Defines emphasized text. Usually in italics
+  - `<strong>` Defines text in bold
+  - `<form>` 	Defines an HTML form for user input.
+  - `<label>` 	Defines a label for an <input> element.
+  - `<input>` 	Defines an input control.
+  - `<select>`	Defines a drop-down list.
+  - `<button>` 	Defines a clickable button.
+  - `<img>`	Defines an image.
+  - `<ul>` 	Defines an unordered list.
+  - `<ol>` 	Defines an ordered list.
+
+
 ## 6 - HTML Semantic Tags
 
 * \<main> - For the main content of a web page
