@@ -1,0 +1,55 @@
+h1.Name{
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+    border: solid 2px blue;
+    background-color: rgb(177, 167, 167);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.Navigation a {
+    font-size: 30px;
+    text-align: center;
+    border: solid 2px rgb(255, 0, 0);
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(194, 193, 193);
+}
+div.Navigation {
+    text-align: center;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+}
+
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+div.DocumentDirectory h1 {
+    font-size: 20px;
+    border: solid 2px rgb(40, 115, 255);
+    text-align: center;
+    background-color: rgb(170, 235, 243);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+}
+
+div.Form {
+    text-align: center;
+}
+
+div.Form p.age {
+    display: inline;
+}
+
+div.FooterTitle {
+    display: inline block;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: solid 2px black;
+    text-align: center;
+}
