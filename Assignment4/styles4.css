@@ -1,0 +1,167 @@
+
+body {
+    background-color: rgb(202, 202, 202);
+    background-image: url("./img/backgroundImage1.jpg");
+    background-size: cover;
+}
+
+div.header {
+    border: solid 2px black;
+    display: inline-block;
+    text-align: center;
+    border-style: none;
+    background-color: rgb(245, 200, 117);
+    width: 100%;
+}
+
+label.label {
+    border: black 1px solid;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10%;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: lightgray;
+    
+}
+
+div.details {
+    margin: 5px auto;
+    width: 100%;
+}
+
+div.radioButtons {
+    display: inline-block;
+    border: black 1px solid;
+    width: 45%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1.5% 2%;
+    background-color: white;
+} 
+
+form input.response {
+    border: black 1px solid;
+    width:45%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+a.website {
+    display: inline-block;
+    width: 45%;
+    padding: 2%;
+    text-align: center;
+}
+
+form select.response {
+    display: inline-block;
+    border: black 1px solid;
+    width:49.5%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+label.address {
+    position: relative;
+    bottom: 99px;
+    background-color: lightgray;
+    }
+
+textarea.response {
+    display: inline-block;
+    border: black 1px solid;
+    width:45%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+div.button {
+    display: block;
+    text-align: center;  
+}
+
+div.button button {
+    text-align: center;
+    background-color: rgb(0, 231, 0);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2% 6%;
+    outline: none;
+}
+
+div.box1, div.box2, div.box3 {
+    width: 29%;
+    display: inline-block;
+    border: solid 1px black;
+    height: inherit;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+div.box1 {
+    background-color: rgb(255, 203, 166);
+}
+
+div.box2 {
+    background-color: silver;
+}
+
+div.box3 {
+    background-color: rgb(255, 255, 85);
+
+}
+
+div.box3 p {
+    border: solid 1px black;
+    text-align: center;
+    margin: 4% 4%;
+    width: 70%;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: rgb(221, 221, 221);
+}
+
+label.color1, label.color2, label.color3 {
+    width: 30%;
+    border: solid 1px black;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+label.color1 {
+    background-color: rgb(252, 102, 102);
+}
+label.color2 {
+    background-color: rgb(0, 182, 0);
+}
+label.color3 {
+    background-color: rgb(67, 67, 255);
+}
+/* https://stackoverflow.com/questions/2156712/how-to-float-3-divs-side-by-side-using-css */
+div.footerBox {
+    display: flex;
+}
+
+div.footerBox > div {
+    flex: 1;
+}
+
+div.box3 div {
+    margin: 1%;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    div.details {
+        margin: 5px auto;
+        width: 667px;
+    }
+}
