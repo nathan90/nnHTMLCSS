@@ -1,0 +1,43 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+        display: flex;
+        background-color: lightgoldenrodyellow;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content:center;/*Justify content is always applied to main axis*/
+        height: 600px;
+        align-items: center;
+}
+.box {
+    width: 100px;
+    /* height: 100px; */
+    flex: 0 0 100px;
+}
+
+.one {
+    background: red;
+   
+
+}
+.two {
+    background: blue;
+
+}
+.three {
+    background: green;
+
+}
