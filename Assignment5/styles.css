@@ -1,0 +1,150 @@
+body {
+    font-family: Segoe UI,SegoeUI,Segoe WP,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;;
+}
+
+div.navbar1, div.navbar2 {
+    position: relative;
+    display: flex;
+    flex: 1 1 0;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+ul.navbarItems {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+a.signIn {
+    color: blue;
+}
+a.logo img{
+    width: 100px;
+}
+ul.navbarItems li {
+    padding: 0 3%;
+    margin: 0 2%;
+}
+ul.navbarItems li a{
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+
+}
+ul.navbarItems li a:hover{
+    text-decoration: underline;
+   
+}
+
+
+div.navbar2 div p {
+    display: inline-block;
+    
+}
+ul.listItems {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+ul.listItems li {
+    padding: 0 3%;
+    margin: 0 1%;
+    white-space: nowrap;
+}
+a.portal {
+    text-decoration: none;
+    border: solid #005BA1 1px;
+    padding: 1%
+}
+
+a.freeAcc {
+    padding: 1%;
+    border: solid #005BA1 1px;
+}
+
+section.azDocumentation {
+    width: 100%;
+    height: 200px;
+    background-color: #005BA1;
+}
+section.azDocumentation h2{
+    font-size: 30px;
+    padding-top: 3%;
+    padding-left: 1%;
+    color: white;
+  
+}
+section.azDocumentation p{
+    padding-left: 1%;
+    color: white;
+  
+}
+
+
+
+section.overview {
+    display: flex;
+}
+
+section.overview span {
+    display: block
+}
+
+
+
+
+
+
+
+
+section.azureProducts {
+    display: flex;
+    
+}
+div.LeftNav {
+    width: 30%;
+}
+div.LeftNav a{
+display: block;
+
+}
+
+.RightBox h3 {
+    display: inline-block;
+    padding-left: 10%;
+}
+
+div.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 2% 2%;
+}
+
+.boxes div {
+    width: 20%;
+}
+
+
+.boxes div a{
+    text-decoration: none;
+}
+
+div.tools {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 2% 2%;
+}
+
+
+div.tools div{
+    border: 1px black solid;
+}
